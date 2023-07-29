@@ -1,0 +1,6 @@
+.navBar {
+    background : rgb(44, 46, 73);
+    border : 1px solid grey;
+    box-shadow : 0px 0px 5px white;
+    border-radius : 55px;
+}

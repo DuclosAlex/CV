@@ -2,6 +2,7 @@
 
 import { Item_Nav } from "@/interfaces/components/NavItem.interface";
 import NavItem from "../NavItem/NavItem";
+import styles from './header.module.css';
 
 const Header: React.FC = () => {
 
@@ -16,8 +17,8 @@ const Header: React.FC = () => {
 
     return (
         <div className="h-[12vh]">
-            <header className="bg-teal-800 h-full w-full border-b-2 border-black shadow-bottom">
-                <nav className="flex w-1/2 m-auto pt-6 justify-around">
+            <header className="h-full flex w-full">
+                <nav className={`${styles.navBar} p-2 flex m-auto justify-around`}>
                     {Nav_List.map((item) => (
                         <NavItem {...item} key={item.id} />
                     ))}
