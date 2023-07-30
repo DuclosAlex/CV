@@ -2,5 +2,6 @@
     background-clip: text;
       -webkit-background-clip: text;
       color: transparent;
-      background-image: linear-gradient(to right, violet, red, orange);
+      background-image: linear-gradient(to right, rgb(84, 115, 252), rgb(97, 184, 227), rgb(84, 115, 252));
 }
+
